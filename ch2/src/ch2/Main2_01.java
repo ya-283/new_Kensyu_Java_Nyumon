@@ -1,6 +1,6 @@
 package ch2;
 
-public class Main2_1 {
+public class Main2_01 {
 	public static void main(String[] args) {
 		int a;
 		int b;
