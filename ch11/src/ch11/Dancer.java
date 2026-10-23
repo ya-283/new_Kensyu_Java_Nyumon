@@ -1,0 +1,16 @@
+package ch11;
+
+// code11_9 抽象メソッドのオーバーライド忘れ（エラー）
+// code11_10 抽象メソッドを正しくオーバーライドする
+public class Dancer extends Character {
+
+	public void dance() {
+		System.out.println(this.name + "は情熱的に踊った");
+	}
+
+	public void attack(Matango m) {
+		System.out.println(this.name + "の攻撃");
+		System.out.println("敵に３ポイントのダメージ");
+		m.hp -= 3;
+	}
+}
