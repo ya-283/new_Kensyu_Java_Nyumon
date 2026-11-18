@@ -17,7 +17,7 @@ import com.example.samuraitravel.repository.HouseRepository;
 public class HouseService {
 	private final HouseRepository houseRepository;
 
-	private HouseService(HouseRepository houseRepository) {
+	public HouseService(HouseRepository houseRepository) {
 		this.houseRepository = houseRepository;
 	}
 	

@@ -5,7 +5,7 @@ imageInput.addEventListener('change', () => {
     if (imageInput.files[0]) {
         let fileReader = new FileReader();
         fileReader.onload = () => {
-			imagePreview.innerHTML = `<img src="${fileReader.result}" class="w-50 mb-3">`;
+			imagePreview.innerHTML = `<img src="${fileReader.result}" class="w-100 mb-3 ">`;
         }
         fileReader.readAsDataURL(imageInput.files[0]);
     } else {
